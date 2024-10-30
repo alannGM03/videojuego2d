@@ -1,0 +1,42 @@
+/* Estilos personalizados para darle un toque de carretera */
+body {
+    background-color: #2c2c2c; /* Fondo oscuro para dar efecto de asfalto */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header y Footer con estilo de carretera */
+header, footer {
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo del canvas para simular la carretera */
+canvas {
+    background-image: url('assets/img/fondo-carretera.jpg'); /* Imagen de fondo de carretera */
+    background-size: cover;
+    border: 2px solid #ffc107; /* Borde amarillo como líneas de carretera */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Estilo para el cursor personalizado */
+.custom-cursor {
+    cursor: url('assets/img/puntero-dedo.png'), auto;
+}
+
+/* Estilo del puntaje */
+#score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffc107;
+    border-radius: 8px;
+}
+
+/* Estilo de instrucciones */
+#instrucciones {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f0f0f0;
+}
